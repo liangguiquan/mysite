@@ -17,3 +17,30 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+
+<template>
+    <div class="test-container">
+        <Comp />
+
+    </div>
+</template>
+
+<script>
+import Comp from './index'
+export default {
+    components: {
+        Comp,
+    }
+
+}
+</script>
+
+
+<style scoped lang="less">
+
+</style>
+
